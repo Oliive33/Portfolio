@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Voici mon site web, portfolio de développeur Front-end CSS, JavaScript freelance"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./ressources/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./ressources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/ressources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./ressources/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preload" as="image" href="./ressources/accueil.jpg" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="container-loader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Btn flottant left petit menu -->
+    <div class="btn-rond-menu">
+      <div class="cont-ligne">
+        <div class="ligne-unique"></div>
+      </div>
+    </div>
+
+    <!-- Navigation verticale -->
+
+    <nav class="nav-left">
+      <div class="blocs-menu">
+        <div class="cercle-portrait">
+          <img src="ressources/logo.png" alt="portrait img" />
+        </div>
+      </div>
+
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#accueil"> Accueil </a>
+        </span>
+      </div>
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#pres"> Présentation </a>
+        </span>
+      </div>
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#proj">Projets</a>
+        </span>
+      </div>
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#range"> Compétences </a>
+        </span>
+      </div>
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#contact"> Contact </a>
+        </span>
+      </div>
+
+      <div class="blocs-menu">
+        <div class="logo-cercle">
+          <a href="#contact">
+            <img class="mail" src="ressources/contact.svg" alt="logo contact" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section class="accueil" id="accueil">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <p class="txt-animation"></p>
+      <a href="#proj" class="btn-acc btn-acc1">Portfolio</a>
+      <a href="#range" class="btn-acc btn-acc2">Compétences</a>
+
+      <div class="medias">
+        <a href="https://github.com/Oliive33" target="_blank">
+          <div class="media media1">
+            <img
+              src="./ressources/github.svg"
+              width="30"
+              height="30"
+              srcset="./ressources/github.svg 20w, ./ressources/github.svg 30w"
+              alt="github icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/olivier-villevieille-25533014a/"
+          target="_blank"
+        >
+          <div class="media media2">
+            <img
+              src="./ressources/linkedin.svg"
+              width="30"
+              height="30"
+              srcset="
+                ./ressources/linkedin.svg 20w,
+                ./ressources/linkedin.svg 30w
+              "
+              alt="linkedin icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+        <a href="https://www.instagram.com/oliive33/" target="_blank">
+          <div class="media media3">
+            <img
+              src="./ressources/insta.svg"
+              width="30"
+              height="30"
+              srcset="./ressources/insta.svg 20w, ./ressources/insta.svg 30w"
+              alt="instagram icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+      </div>
+      <a href="#pres">
+        <div class="btn-rond">
+          <img
+            src="./ressources/arrowDown.svg"
+            alt="logo flèche bas"
+            class="logo-btn-rond-acc"
+          />
+        </div>
+      </a>
+    </section>
+
+    <!-- Section Présentation -->
+
+    <section class="presentation" id="pres">
+      <h2 class="titre-pres">Présentation :</h2>
+      <div class="container-presentation">
+        <div class="fond-forme"></div>
+
+        <div class="pres-gauche">
+          <h3>
+            Vous cherchez quelqu'un de confiance pour votre projet de site web?
+          </h3>
+          <hr />
+          <p class="presentation-txt">
+            Laissez-moi me présenter en quelques phrases :
+          </p>
+          <p>
+            Je m'appelle Olivier, j'ai 33 ans et je vis actuellement en France.
+            Suite à une reconversion pro suivi d'une formation de développeur
+            web, je me lance en tant que développeur front-end en freelance, je
+            vous présente sur ce site et à travers mes projets ce que je suis
+            capable de faire bien sur je continue d'apprendre en parallèle, car
+            j'aime apprendre de nouvelles choses et acquérir de nouvelles
+            compétences(GreenSock, React...), opérationnel dès à présent pour
+            vos projets de site web alors n'hésitez pas 😉!
+          </p>
+        </div>
+        <div class="pres-droite">
+          <ul class="liste-presentation">
+            <li>
+              <span><strong>Soft Skills :</strong></span>
+            </li>
+            <li class="item-liste i1">
+              <span class="chiffre-style"></span>
+              <p class="txt-liste">1.Communication</p>
+            </li>
+            <li class="item-liste i2">
+              <span class="chiffre-style"></span>
+              <p class="txt-liste">2.Patience</p>
+            </li>
+            <li class="item-liste i3">
+              <span class="chiffre-style"></span>
+              <p class="txt-liste">3.Curiosité</p>
+            </li>
+            <li class="item-liste i4">
+              <span class="chiffre-style"></span>
+              <p class="txt-liste">4.Sens de l'écoute</p>
+            </li>
+            <li class="item-liste i5">
+              <span class="chiffre-style"></span>
+              <p class="txt-liste">5.Gestion du temps</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets -->
+
+    <section class="projets" id="proj">
+      <h2 class="titre-projet">Mes Projets</h2>
+
+      <div class="cont-projets">
+        <div class="item vague1">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/ohmyfood.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet Ohmyfood</h3>
+          <p>
+            Une petite faim?, un de mes premiers projets en pure
+            <strong>CSS</strong> avec l'aide du préprocesseur
+            <strong>SASS</strong>.
+          </p>
+          <a
+            href="https://oliive33.github.io/OlivierVillevieille_3_15022021/"
+            class="btn-projets"
+            target="_blank"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague1">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/kyoto.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet site de Voyage</h3>
+          <p>
+            Envie d'ailleurs, voici l'exemple d'un site de voyage avec du
+            <strong>CSS</strong> et un peu de <strong>Javascript</strong>.
+          </p>
+          <a
+            href="https://oliive33.github.io/Projet-site-voyage/"
+            class="btn-projets"
+            target="_blank"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague1">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/site-bankist.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet Site Bank Interface</h3>
+          <p>
+            Projet réalisé en <strong>JavaScript</strong> natif, il provient de
+            ma formation JS réalisée sur Udemy en Anglais.
+          </p>
+          <a href="https://oliive33.github.io/Bankist-Dom/" class="btn-projets"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague2">
+          <div class="cont-img-port">
+            <img src="" width="800" height="400" alt="image projet" />
+          </div>
+          <h3>Mon fabuleux projet</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            dolore?
+          </p>
+          <a href="#" class="btn-projets">Découvrez le projet</a>
+        </div>
+
+        <div class="item vague2">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/site-gym.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet site de sport</h3>
+          <p>
+            Besoin de se maintenir en forme?, site web de Gym en
+            <strong>CSS</strong> avec plus de <strong>JS</strong>
+            au programme.
+          </p>
+          <a
+            href="https://oliive33.github.io/Projet-site-de-sport/"
+            class="btn-projets"
+            target="_blank"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague2">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/site-immobilier.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet site immobilier</h3>
+          <p>
+            Envie d'investir ?, projet site immobilier avec du
+            <strong>CSS</strong> et d'avantage de <strong>JavaScript</strong>.
+          </p>
+          <a
+            href="https://oliive33.github.io/Projet-site-immobilier/"
+            class="btn-projets"
+            target="_blank"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague3">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/site-hebergementweb.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet site Hebergement Web</h3>
+          <p>
+            Bien héberger son site c'est important, exemple site web de services
+            <strong>CSS</strong>, <strong>SASS</strong> et
+            <strong>JS</strong> réunis.
+          </p>
+          <a
+            href="https://oliive33.github.io/Projet-site-hebergement-web/"
+            class="btn-projets"
+            target="_blank"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague3">
+          <div class="cont-img-port">
+            <img
+              src="ressources/img-projets/site-bootstrap.jpg"
+              width="800"
+              height="400"
+              alt="image projet"
+            />
+          </div>
+          <h3>Projet site Bootstrap</h3>
+          <p>
+            Site web réalisé avec le framewok CSS <strong>Bootstrap</strong>,
+            simple et efficace 100% responsive.
+          </p>
+          <a
+            href="https://oliive33.github.io/Projet-site-Bootstrap/"
+            class="btn-projets"
+            target="_blank"
+            >Découvrez le projet</a
+          >
+        </div>
+
+        <div class="item vague3">
+          <div class="cont-img-port">
+            <img src="" alt="image projet" />
+          </div>
+          <h3>Mon fabuleux projet</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            dolore?
+          </p>
+          <a href="#" class="btn-projets">Découvrez le projet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Range -->
+
+    <section class="section-range" id="range">
+      <h2 class="titre-exp">Mes compétences</h2>
+
+      <div class="grille-skill">
+        <div class="range-cont">
+          <p class="label-skill">HTML</p>
+          <p class="number-skill">95%</p>
+          <div class="barre-skill b1"></div>
+          <div class="barre-grises"></div>
+        </div>
+
+        <div class="range-cont">
+          <p class="label-skill">CSS</p>
+          <p class="number-skill">90%</p>
+          <div class="barre-skill b2"></div>
+          <div class="barre-grises"></div>
+        </div>
+
+        <div class="range-cont">
+          <p class="label-skill">JavaScript</p>
+          <p class="number-skill">70%</p>
+          <div class="barre-skill b3"></div>
+          <div class="barre-grises"></div>
+        </div>
+
+        <div class="range-cont">
+          <p class="label-skill">SEO</p>
+          <p class="number-skill">80%</p>
+          <div class="barre-skill b4"></div>
+          <div class="barre-grises"></div>
+        </div>
+
+        <div class="range-cont">
+          <p class="label-skill">SASS</p>
+          <p class="number-skill">85%</p>
+          <div class="barre-skill b5"></div>
+          <div class="barre-grises"></div>
+        </div>
+
+        <div class="range-cont">
+          <p class="label-skill">Bootstrap</p>
+          <p class="number-skill">80%</p>
+          <div class="barre-skill b6"></div>
+          <div class="barre-grises"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Slider -->
+    <div class="head-slider">
+      <h2 class="titre-slider">Jeux & API</h2>
+      <p>
+        Je vous présente ce slider, fait avec l'aide de la library Js GSAP,
+        <strong>Greensocks</strong>. Ce slider contient des
+        <strong>jeux</strong> au nombre de trois, ils sont fait en
+        <strong>CSS</strong> et <strong>JavaScript</strong> natif. Il y a
+        également 4 <strong>API</strong>(Application Programming Interface), qui
+        vous permettrons d'avoir accès à des données de manière dynamique, comme
+        rechercher une idée de recette🍝, trouver un bon film🎬,le nombre
+        d'habitants par pays🌍, ainsi qu'une Api de blagues important la bonne
+        humeur😃, pour finir un mini projet relax la yoga routine🙏. En tout les
+        cas ce sont des exemples sur ce que je suis capable de faire en
+        <strong>JavaScript</strong> natif, tout ça n'est qu'un début car je suis
+        en train de me former dans le framework JS <strong>React</strong>, et
+        dans bien d'autres choses dans le domaine du front-end. Biensur je
+        mettrais à jour régulèrement mes projets sur ce site, et tout les
+        projets sont disponible sur mon profil
+        <a href="https://github.com/Oliive33" target="_blank"
+          ><strong>Github</strong>🔗</a
+        >.
+      </p>
+    </div>
+    <section class="container-slider">
+      <div class="counter">
+        <span>1</span> /
+        <span>8</span>
+      </div>
+      <div class="slider">
+        <div class="container-btns">
+          <button class="btn-prev">
+            <img
+              src="ressources/left-chevron.svg"
+              width="18"
+              height="18"
+              alt="left chevron"
+            />
+          </button>
+          <button class="btn-next">
+            <img
+              src="ressources/right-chevron.svg"
+              width="18"
+              height="18"
+              alt="right chevron"
+            />
+          </button>
+        </div>
+        <div class="slide s1">
+          <a href="https://oliive33.github.io/Pig-game/" target="_blank">
+            <h3>Let's play!</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Ready pour lancer les dés! À deux joueurs ou contre toi même, le
+                player qui atteint 100 en 1er à gagné! Attention au chiffre 1,
+                tu peux passer ton tour pour conserver ta progression, Enjoy!
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s2">
+          <a href="https://oliive33.github.io/Guess-my-num/" target="_blank">
+            <h3>Numbers!!!</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Avez-vous des dons de mentalist?, le but du jeu devinez le
+                numéro caché le plus vite possible en 1 et 20? Pour conserver le
+                meilleur score, pas si facile à toi de jouer!!!
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s3">
+          <a href="https://oliive33.github.io/floppy-bird/" target="_blank">
+            <h3>I can fly...</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Le célèbre bird revient, cette fois c'est Floppy mais il n'a pas
+                vraiment changé s'aurez-vous le faire voler le plus loin
+                possible, et battre tout les records i believe i can fly.....
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s4">
+          <a href="https://oliive33.github.io/API-Meals/" target="_blank">
+            <h3>Recipes</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Une petite faim, trouvez votre plat préféré à travers un large
+                choix de recette du monde, sorry les recettes de cette API ne
+                sont qu'en anglais mais avec les vidéos c'est easy!
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s5">
+          <a href="https://oliive33.github.io/API-What-watch/" target="_blank">
+            <h3>Moovies</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Une envie ciné, de nombreux films vous trouverez! Sur les
+                résumés vous ne pourrez cliquer! Avec une simple lettre, de
+                nombreuses idées de films à voir vous aurez.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s6">
+          <a href="https://oliive33.github.io/API-Jokes/" target="_blank">
+            <h3>I'm joking</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Une petite blague à raconter, grâce à cette API spéciale humour
+                il y en aura pour tout le monde dans la joie et la bonne humeur
+                biensur!! Cliquez dessus pour en changer.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s7">
+          <a href="https://oliive33.github.io/API-Countries/" target="_blank">
+            <h3>How many people?</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Vous aimez la géographie ou juste par curiosité, toujours utile
+                pour un quizz et sa culture générale découvrez les drapeaux et
+                la population des pays, le monde est petit!
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="slide s8">
+          <a
+            href="https://oliive33.github.io/Projet-Yoga-routine/"
+            target="_blank"
+          >
+            <h3>Namasté🙏</h3>
+            <hr />
+            <div class="txt-slide">
+              <p>
+                Besoin de relaxer le corps et l'esprit, rien de mieux de la Yoga
+                Routine. Vous avez 12 excercices de présenté, vous pouvez
+                maitrisez, l'ordre, le nombre, la durée appuyer sur commencer et
+                nasmasté.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Parallax -->
+
+    <div class="section-parallax">
+      <p class="txt-par">521 tasses de café</p>
+      <p class="txt-par">32 projets</p>
+      <p class="txt-par">+1000 heures de coding</p>
+    </div>
+
+    <!-- Section contact -->
+    <section class="section-contact" id="contact">
+      <div class="contact-background">
+        <h2>Contacts</h2>
+        <div class="btn">
+          <button class="btn-contact" type="button">
+            <a href="mailto:oliiv44@gmail.com">Me Contacter ✉️</a>
+          </button>
+        </div>
+        <div class="whatsapp">
+          <div class="logo-whatsapp">
+            <img src="./ressources/whatpp.svg" alt="logo whatsapp" />
+            <span>+33 6 75 18 58 44</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Tout Droits réservés &copy;</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
