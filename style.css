@@ -104,10 +104,12 @@ body {
   height: 130px;
   border-radius: 50%;
   position: relative;
-  box-shadow: 2px 2px 70px #474747, -2px -2px 70px #2e2e2e;
+  background: #f1f1f1;
+  box-shadow: -1px 13px 35px -3px rgba(96, 96, 96, 0.75);
+  /* box-shadow: 2px 2px 70px #474747, -2px -2px 70px #2e2e2e; */
 }
 .cercle-portrait img {
-  width: 110px;
+  width: 120px;
   position: absolute;
   top: 50%;
   left: 50%;
