@@ -12,42 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: #f1f1f1;
 }
-/* --------------------Loader-------------------- */
-.container-loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(57deg, #9b9a9a 0%, #666666 80%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.8s opacity 0.5s ease;
-  z-index: 1000;
-}
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3492f0;
-  width: 130px;
-  height: 130px;
-  /* animation: spin 1.9s linear infinite; */
-  animation: spin 1.6s linear infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.fondu-out {
-  opacity: 0;
-}
+
 /* --------------------Navigation-------------------- */
 .nav-left {
   width: 300px;
@@ -757,24 +722,24 @@ h1 {
   border-radius: 5px;
 }
 .b1 {
-  width: 95%;
+  width: 90%;
 }
 .b2 {
-  width: 90%;
+  width: 75%;
   background: rgb(243, 237, 146);
 }
 .b3 {
-  width: 70%;
-  background: rgb(243, 237, 146);
+  width: 85%;
 }
 .b4 {
   width: 80%;
+  background: rgb(243, 237, 146);
 }
 .b5 {
   width: 85%;
 }
 .b6 {
-  width: 80%;
+  width: 85%;
   background: rgb(243, 237, 146);
 }
 .label-skill {
