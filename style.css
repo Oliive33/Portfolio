@@ -459,6 +459,7 @@ h1 {
   text-align: center;
   font-size: 25px;
   letter-spacing: 2px;
+  margin-left: 20px;
 }
 .pres-gauche hr {
   width: 60px;
@@ -818,6 +819,10 @@ h1 {
 .head-slider p a {
   text-decoration: none;
   color: #000;
+}
+.head-slider p::first-letter {
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .container-slider {
