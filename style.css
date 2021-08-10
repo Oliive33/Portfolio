@@ -185,7 +185,7 @@ body {
 /* --------------------Accueil-------------------- */
 
 .accueil {
-  background: url(./ressources/accueil.jpg);
+  background: url(./ressources/accueil.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -908,9 +908,6 @@ h1 {
   z-index: -10;
 }
 
-.s1 {
-  transform: translateX(0%);
-}
 .slide h3 {
   font-size: 28px;
   padding-top: 270px;
@@ -941,6 +938,7 @@ h1 {
 }
 .s1 {
   background-image: url(ressources/img-slider/pig-game.jpg);
+  transform: translateX(0%);
 }
 .s2 {
   background-image: url(ressources/img-slider/guess-number.jpg);
