@@ -451,7 +451,7 @@ h1 {
 .pres-gauche {
   width: 600px;
   flex-shrink: 0;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-left: 120px;
   padding-top: 20px;
 }
