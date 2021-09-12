@@ -739,14 +739,14 @@ h1 {
   width: 90%;
 }
 .b2 {
-  width: 75%;
+  width: 80%;
   background: rgb(243, 237, 146);
 }
 .b3 {
   width: 85%;
 }
 .b4 {
-  width: 80%;
+  width: 85%;
   background: rgb(243, 237, 146);
 }
 .b5 {
@@ -965,12 +965,15 @@ h1 {
   background-image: url(ressources/img-slider/graphic.jpg);
 }
 .s6 {
-  background-image: url(ressources/img-slider/jokes.jpg);
+  background-image: url(ressources/img-slider/quiz-js.jpg);
 }
 .s7 {
-  background-image: url(ressources/img-slider/citations.jpg);
+  background-image: url(ressources/img-slider/jokes.jpg);
 }
 .s8 {
+  background-image: url(ressources/img-slider/citations.jpg);
+}
+.s9 {
   background-image: url(ressources/img-slider/yoga.jpg);
 }
 @media screen and (max-width: 1300px) {

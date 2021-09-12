@@ -229,7 +229,7 @@ const negation = gsap.to(container, {
 
 function handleDirection(direction) {
   if (direction === "next") {
-    if (index === 7) {
+    if (index === 8) {
       negation.seek(0);
       negation.play();
       return;
