@@ -12,7 +12,33 @@ body {
   font-family: "Poppins", sans-serif;
   background: #f1f1f1;
 }
+/* --------------------Scroll up-------------------- */
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  text-decoration: none;
+  background: linear-gradient(to bottom, rgb(52, 146, 240), #7598b6);
+  border-radius: 100px;
+  padding: 0.45rem;
+  opacity: 9;
+  z-index: 10;
+  transition: 0.4s;
+}
+.scrollup:hover {
+  background: #b4b4b4;
+  opacity: 1;
+}
 
+.scrollup .fa-chevron-up {
+  color: whitesmoke;
+  font-size: 1.35rem;
+}
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 64px;
+}
 /* --------------------Navigation-------------------- */
 .nav-left {
   width: 300px;
@@ -1315,6 +1341,14 @@ footer {
   padding-top: 100px;
   padding-left: 300px;
   margin-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+footer a:hover {
+  color: #000;
+  text-decoration-line: underline;
 }
 @media screen and (max-width: 1300px) {
   footer {
