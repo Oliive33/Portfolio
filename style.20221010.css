@@ -1245,7 +1245,7 @@ h1 {
 }
 .questionnaire a {
   font-size: 20px;
-  color: #000 !important;
+  color: #000;
   font-weight: bolder;
   transition: 0.2s ease-in-out;
 }
