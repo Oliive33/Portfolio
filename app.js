@@ -25,7 +25,7 @@ const txtAnim = document.querySelector(".txt-animation");
 
 let typewriter = new Typewriter(txtAnim, {
   loop: false,
-  deleteSpeed: 20,
+  deleteSpeed: 40,
 });
 
 typewriter
@@ -41,7 +41,10 @@ typewriter
   .deleteChars(5)
   .typeString('<span style="color: #381DD9;"> Javascript</span> !')
   .pauseFor(1000)
-  .deleteChars(52)
+  .deleteChars(26)
+  .typeString('<span style="color: #db2e2e;">community manager</span> !')
+  .pauseFor(1000)
+  .deleteChars(58)
   .typeString("<span>Je vous souhaite une bonne visite sur mon site</span>!")
   .start();
 
