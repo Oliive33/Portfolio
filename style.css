@@ -43,6 +43,7 @@ body {
 .nav-left {
   width: 300px;
   height: 100vh;
+  min-height: 500px;
   min-height: 700px;
   background: linear-gradient(to bottom, rgb(52, 146, 240), #7598b6);
   position: fixed;
@@ -101,6 +102,11 @@ body {
 }
 .clock__date span:hover::after {
   width: 0%;
+}
+@media screen and (max-width: 400px) {
+  .clock__date {
+    margin-top: 15rem;
+  }
 }
 /* --------------------Portrait logo-------------------- */
 
