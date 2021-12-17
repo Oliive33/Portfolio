@@ -267,3 +267,48 @@ function scrollUp() {
   else scrollUp.classList.remove("show-scroll");
 }
 window.addEventListener("scroll", scrollUp);
+/*==================== CLOCK & DATE TEXT ====================*/
+const textHour = document.getElementById("text-hour");
+const textMinutes = document.getElementById("text-minutes");
+const textAmPm = document.getElementById("text-ampm");
+const dateWeek = document.getElementById("date-day-week");
+const dateDay = document.getElementById("date-day");
+const dateMonth = document.getElementById("date-month");
+const dateYear = document.getElementById("date-year");
+
+const clockText = () => {
+  let date = new Date();
+
+  let hh = date.getHours(),
+    ampm,
+    mm = date.getMinutes(),
+    day = date.getDate(),
+    dayweek = date.getDay(),
+    month = date.getMonth(),
+    year = date.getFullYear();
+
+  // on montre le nom du jour de la semaine
+  let week = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"];
+  // On montre les mois de l'année
+  let months = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+
+  // ON montre le jour, le mois et l'année
+  dateDay.innerHTML = day;
+  dateWeek.innerHTML = `${week[dayweek]}`;
+  dateMonth.innerHTML = `${months[month]}`;
+  dateYear.innerHTML = year;
+};
+setInterval(clockText, 1000);

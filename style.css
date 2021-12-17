@@ -83,6 +83,25 @@ body {
 .blocs-menu span:hover::after {
   width: 100%;
 }
+
+/*=============== CLOCK ===============*/
+
+.clock__date {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  margin-top: 10rem;
+  cursor: 0;
+}
+.clock__date span {
+  margin: 2px;
+}
+.clock__date span:hover::after {
+  width: 0%;
+}
 /* --------------------Portrait logo-------------------- */
 
 .blocs-menu:nth-child(1) {
