@@ -57,6 +57,9 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap"
       rel="stylesheet"
     />
+     <!--=============== SWIPER CSS ===============-->
+     <link rel="stylesheet" href="./swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./style.min.css" />
     <link rel="canonical" href="https://www.homemade-web.com/" />
     <script
@@ -696,6 +699,44 @@
         </div>
       </div>
     </section>
+    <!-- Section Swiper Projets clients -->
+    <section class="new section container" id="new">
+      <h2 class="section__title">Projet Marem</h2>
+
+      <div class="new__container">
+        <div class="swiper new-swiper">
+          <div class="swiper-wrapper">
+            <article class="new__card swiper-slide">
+              <img class="new__img" src="./ressources/img-projets/swiper1.jpg" alt="">
+            </article>
+
+            <article class="swiper-projet new__card swiper-slide">
+              <img class="new__img" src="./ressources/img-projets/swiper3.jpg" alt="">
+              <div class="overlay">
+                <a href="https://maremvision.org/" target="_blank" rel="noopener noreferrer">
+                  Découvrez le Projet
+                </a>
+                <p class="para-swiper">
+                  Ce projet a été réalisé pour l'association <strong>Marem</strong>, qui aide
+                  les enfants du togo pour un meilleur avenir, projet réalisé en <strong>CSS</strong>
+                  et <strong>JavaScript</strong>.
+                </p>
+              </div>
+            </article>
+            <article class="new__card swiper-slide">
+            
+              <img class="new__img" src="./ressources/img-projets/swiper2.jpg" alt="">
+            </article>
+            <article class="new__card swiper-slide">
+              <img class="new__img" src="./ressources/img-projets/swiper4.jpg" alt="">
+            </article>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Section Range -->
 
@@ -1020,11 +1061,15 @@
       <i class="fas fa-chevron-up"></i>
     </a>
 
+    <!--=============== SWIPER JS ===============-->
+    <script src="./swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    
     <script src="app.min.js"></script>
   </body>
 </html>
