@@ -15,6 +15,17 @@ body {
 :root {
   --first-color: linear-gradient(to bottom, rgb(52, 146, 240), #7598b6);
 }
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: rgba(180, 180, 180, 0.774);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--first-color);
+  border-radius: 1rem;
+}
 /* --------------------Scroll up-------------------- */
 .scrollup {
   position: fixed;
@@ -510,7 +521,7 @@ h1 {
 }
 .pres-gauche h3 {
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   letter-spacing: 1px;
   margin-left: 20px;
   margin-top: 20px;
@@ -552,6 +563,20 @@ h1 {
   font-size: 24px;
   display: inline;
 }
+/* read more */
+.moreText {
+  display: block;
+}
+.read-more-btn {
+  display: none;
+}
+.text.show-more .moreText {
+  display: none;
+}
+.text.show-more .dots {
+  display: none;
+}
+
 /* Medias Presentation */
 @media screen and (max-width: 1300px) {
   .container-presentation {
@@ -612,6 +637,35 @@ h1 {
   }
   .txt-liste {
     font-size: 17px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .text.show-more .moreText {
+    display: inline;
+  }
+}
+@media screen and (max-width: 600px) {
+  .moreText {
+    display: none;
+  }
+  .read-more-btn {
+    display: block;
+    margin-top: 4px;
+    padding: 12px 60px;
+    background-color: rgb(117, 152, 182);
+    color: rgb(53, 49, 49);
+    border-radius: 2px;
+    font-family: "Abril Fatface", sans-serif;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .text.show-more .moreText {
+    display: inline;
+  }
+  .text.show-more .dots {
+    display: none;
   }
 }
 /* --------------------Section Projets-------------------- */
