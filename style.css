@@ -796,7 +796,7 @@ h1 {
 /* --------------------Section Swiper Projets Client----------------- */
 /*=============== NEW ===============*/
 .container {
-  max-width: 920px;
+  max-width: 1150px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   padding-left: 300px;
@@ -814,7 +814,7 @@ h1 {
 }
 .new__card {
   position: relative;
-  width: 400px;
+  width: 330px;
   height: 100%;
   background-color: whitesmoke;
   box-shadow: 0 4px 16px hsla(355, 25%, 15%, 0.1);
@@ -839,8 +839,7 @@ h1 {
 }
 .overlay a {
   color: white;
-  font-size: 19px;
-  letter-spacing: 1px;
+  font-size: 17px;
   position: absolute;
   top: 15%;
   left: 50%;
@@ -851,7 +850,7 @@ h1 {
 }
 .overlay .para-swiper {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: bolder;
   position: absolute;
@@ -1356,7 +1355,7 @@ h1 {
   text-align: center;
   color: #000;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 .section-contact h4 {
@@ -1420,8 +1419,8 @@ h1 {
 }
 
 .whatsapp img {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   transition: 0.3s ease-in-out;
 }
 
