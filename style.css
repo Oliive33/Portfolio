@@ -250,7 +250,7 @@ body {
 /* --------------------Accueil-------------------- */
 
 .accueil {
-  background: url(./ressources/accueil.webp);
+  background: url(./ressources/accueil.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -709,6 +709,9 @@ h1 {
 .cont-img-port img {
   width: 100%;
   height: auto;
+}
+.cont-img-grocery {
+  border-bottom: 1px solid #e2e2e2;
 }
 .item h3 {
   padding: 10px 10px 0;
