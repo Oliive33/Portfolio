@@ -1349,6 +1349,42 @@ h1 {
     margin: 20px 0px;
   }
 }
+/* --------------------Section google-------------------- */
+.section-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto 0;
+  padding: 5px;
+}
+.section-google img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+.link-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.link-google a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.link-google a:hover {
+  transform: scalex(1.05);
+}
+
+.link-google img {
+  width: 18px;
+  height: 18px;
+  margin: 3px 0 0 5px;
+}
 /* --------------------Section Contact-------------------- */
 .section-contact {
   width: 100%;
@@ -1368,7 +1404,7 @@ h1 {
 }
 .section-contact a {
   text-decoration: none;
-  color: #333;
+  /* color: #333; */
 }
 .contact-background {
   width: 80%;
