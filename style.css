@@ -648,6 +648,9 @@ h1 {
   .moreText {
     display: none;
   }
+  .pres-gauche p {
+    font-size: 17px;
+  }
   .read-more-btn {
     display: block;
     margin-top: 4px;
